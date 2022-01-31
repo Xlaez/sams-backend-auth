@@ -1,0 +1,35 @@
+{
+  "name": "project__0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev-start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dompurify": "^2.3.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsdom": "^18.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "marked": "^4.0.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.12",
+    "mutter": "^1.0.1",
+    "nodemailer": "^6.7.2",
+    "sequelize": "^6.12.0-alpha.1",
+    "slugify": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
